@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git stash
 git stash drop
 git checkout $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
